@@ -12,11 +12,28 @@ const Navbar = () => {
           <Typography.Title level={2} className='logo'>
               <Link to='/'>Cryptoverse</Link>
           </Typography.Title>
-          <Button className='menu-control-container'></Button>
-      </div>
+          {/* <Button className='menu-control-container'></Button> */}
 
+      </div>
+    <Menu theme='dark'>
+        <Menu.item icon = {<HomeOutlined/>}>
+            <Link to ="/">Home</Link>
+        </Menu.item>
+    
+        <Menu.item icon = {<FundOutlined/>}>
+            <Link to ="/cryptocurrencies">Cryptocurrencies</Link>
+        </Menu.item>
+
+        <Menu.item icon = {<MoneyCollectOutlined/>}>
+            <Link to ="/exchanges">Exchenges</Link>
+        </Menu.item>
+
+        <Menu.item icon = {<BulbOutlined/>}>
+            <Link to ="/news">News</Link>
+        </Menu.item>
+    </Menu>
   </div>
   );
 };
 
-export default Navbar;
+export {Navbar};
