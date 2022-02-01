@@ -4,4 +4,4 @@ const CryptoDetails = () => {
   return (<div>CryptoDetails</div>);
 };
 
-export {CryptoDetails};
+export default CryptoDetails;

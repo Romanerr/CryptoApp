@@ -4,4 +4,4 @@ const Exchanges = () => {
   return (<div>Exchanges</div>);
 };
 
-export {Exchanges};
+export default Exchanges;

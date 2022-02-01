@@ -4,4 +4,4 @@ const Cryptocurrencies = () => {
   return (<div>Cryptocurrencies</div>);
 };
 
-export  {Cryptocurrencies};
+export default Cryptocurrencies;
