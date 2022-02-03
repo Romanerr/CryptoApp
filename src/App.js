@@ -1,12 +1,12 @@
 import React from 'react';
 import {Switch,Route,Link } from 'react-router-dom';
 import {Layout , Typography, Space} from 'antd'
-import {Navbar, Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails} from './components';
+import {Homepage,Navbar, Exchanges, Cryptocurrencies, CryptoDetails, News } from './components';
 import "./App.css";
 
 const App = () => {
   return (<div className='app'>
-      <div className='navbar'><Navbar/></div>
+      {/* <div className='navbar'><Navbar/></div> */}
       <div className='main'>
         <Layout>
           <div className='routes'>

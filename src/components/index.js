@@ -1,6 +1,6 @@
-export {default as Navbar} from './Navbar';
-export {default as Cryptocurrencies} from './Cryptocurrencies.jsx';
-export {default as CryptoDetails} from './CryptoDetails.jsx';
-export {default as News} from './News.jsx';
-export {default as Homepage} from './Homepage.jsx';
-export {default as Exchanges} from './Exchanges.jsx';
+export * from './Navbar';
+export * from './Cryptocurrencies';
+export * from './CryptoDetails';
+export * from './News';
+export * from "./Homepage";
+export * from './Exchanges';
